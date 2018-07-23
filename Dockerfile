@@ -9,3 +9,6 @@ RUN gem install taskjuggler --no-document --clear-sources
 VOLUME /tj3
 WORKDIR /tj3
 USER tj3
+
+ENTRYPOINT ["/usr/bin/tj3"]
+CMD ["--help"]
