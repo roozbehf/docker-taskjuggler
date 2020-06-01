@@ -1,4 +1,9 @@
-#!/bin/sh
+#!/bin/bash
+#
+# Runs TaskJuggler using the remote docker image 
+#
+# Copyright (c) 2020, Roozbeh Farahbod
+#
 
 DOCKER_IMAGE=theroozbeh/tj3:latest
 
